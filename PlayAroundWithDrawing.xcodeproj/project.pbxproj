@@ -12,6 +12,7 @@
 		DD3AC2581F2D80AE001C6A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3AC2561F2D80AE001C6A0B /* Main.storyboard */; };
 		DD3AC25A1F2D80AE001C6A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3AC2591F2D80AE001C6A0B /* Assets.xcassets */; };
 		DD3AC25D1F2D80AE001C6A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3AC25B1F2D80AE001C6A0B /* LaunchScreen.storyboard */; };
+		DD3AC2661F2D81F5001C6A0B /* MyDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3AC2651F2D81F5001C6A0B /* MyDrawing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DD3AC2591F2D80AE001C6A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD3AC25C1F2D80AE001C6A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD3AC25E1F2D80AE001C6A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3AC2651F2D81F5001C6A0B /* MyDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDrawing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		DD3AC2511F2D80AE001C6A0B /* PlayAroundWithDrawing */ = {
 			isa = PBXGroup;
 			children = (
-				DD3AC2521F2D80AE001C6A0B /* AppDelegate.swift */,
+				DD3AC2641F2D81B8001C6A0B /* Supporting Files */,
 				DD3AC2541F2D80AE001C6A0B /* ViewController.swift */,
 				DD3AC2561F2D80AE001C6A0B /* Main.storyboard */,
+				DD3AC2651F2D81F5001C6A0B /* MyDrawing.swift */,
+			);
+			path = PlayAroundWithDrawing;
+			sourceTree = "<group>";
+		};
+		DD3AC2641F2D81B8001C6A0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3AC2521F2D80AE001C6A0B /* AppDelegate.swift */,
 				DD3AC2591F2D80AE001C6A0B /* Assets.xcassets */,
 				DD3AC25B1F2D80AE001C6A0B /* LaunchScreen.storyboard */,
 				DD3AC25E1F2D80AE001C6A0B /* Info.plist */,
 			);
-			path = PlayAroundWithDrawing;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				DD3AC2551F2D80AE001C6A0B /* ViewController.swift in Sources */,
 				DD3AC2531F2D80AE001C6A0B /* AppDelegate.swift in Sources */,
+				DD3AC2661F2D81F5001C6A0B /* MyDrawing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
